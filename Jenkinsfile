@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    triggers { cron('H 0 8 * * *') }
+    triggers { cron('H H * * *') }
     options {
         timeout(time: 10, unit: 'MINUTES')
         ansiColor('xterm')
