@@ -1,4 +1,4 @@
-FROM diginc/pi-hole:debian_dev
+FROM pihole/pihole:latest
 
 #update and accept all prompts
 RUN echo 'APT::Default-Release "stretch";' > /etc/apt/apt.conf.d/99defaultrelease \
